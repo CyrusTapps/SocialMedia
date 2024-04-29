@@ -53,7 +53,7 @@ aside {
 
 
 #sec1 {
-    background-color: white;
+    background-color: #f5f5f5;
     height: 49.25%;
     width: 80%;
     margin: 0.5%;
@@ -83,8 +83,21 @@ aside {
 
 #sec1B {
     background-color: #f5f5f5;
-    width: 100%;
+    width: 80%;
     height: 75%;
+    margin-left: 20%;
+    margin-top: 5%;
+    line-height: 0.8rem;
+}
+
+#gearpic {
+    height: 3%;
+    width: 3%;
+}
+
+#mapmarker{
+    height:2%;
+    width:2%;
 }
 
 #sec2A {
@@ -114,7 +127,8 @@ aside {
 #sec3A {
     height: 25%;
     width: 100%;
-    background-color: #a9a9a9;;
+    background-color: #a9a9a9;
+    ;
 
 }
 
