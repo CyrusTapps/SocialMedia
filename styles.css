@@ -37,7 +37,7 @@ section {
     margin: 0.5%;
     align-items: end;
 
-    
+
 
 }
 
@@ -51,6 +51,7 @@ aside {
 
 }
 
+
 #sec1 {
     background-color: gray;
     height: 49.25%;
@@ -58,7 +59,8 @@ aside {
     margin: 0.5%;
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items: center;
+    border: 4px solid black;
 
 }
 
@@ -67,31 +69,89 @@ aside {
     height: 49.25%;
     width: 80%;
     margin: 0.5%;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items: center;
+    border: 4px solid black;
 }
 
-#sec1A{
+#sec1A {
     background-color: red;
-    width:100%;
-    height:25%;
+    width: 100%;
+    height: 25%;
 }
 
-#sec1B{
+#sec1B {
     background-color: blueviolet;
-    width:100%;
-    height:75%;
+    width: 100%;
+    height: 75%;
 }
 
-#sec2A{
+#sec2A {
     background-color: red;
-    width:100%;
-    height:15%;
+    width: 100%;
+    height: 15%;
 }
 
-#sec2B{
+#sec2B {
     background-color: blueviolet;
-    width:100%;
-    height:85%;
+    width: 100%;
+    height: 85%;
+}
+
+#sec3 {
+    height: 25%;
+    width: 70%;
+    align-items: start;
+    background-color: coral;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+
+}
+
+#sec3A {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(147, 145, 145);
+
+}
+
+#sec3B {
+    height: 75%;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+#sec4 {
+    height: 72%;
+    width: 70%;
+    align-items: start;
+    background-color: coral;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+
+}
+
+#sec4A {
+    height: 15%;
+    width: 100%;
+    background-color: rgb(147, 145, 145);
+
+}
+
+#sec4B {
+    height: 75%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+#sec4C {
+    height: 10%;
+    width: 100%;
+    background-color: brown;
+    border-top: 4px solid black;
 }
