@@ -1,7 +1,16 @@
+:root {
+    --containercolor: white;
+    --navbarcolor: black;
+    --headercolor1: #0777cd;
+    --headercolor2: #a9a9a9;
+    --sectioncolor1: #f5f5f5;
+}
+
 #container {
-    background-color: white;
+    background-color: var(--containercolor);
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 #container {
@@ -9,8 +18,34 @@
     flex-direction: column;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 13%;
+
+
+}
+
+li {
+    color: white;
+    width: 14vw;
+    /* border: 1px solid white; */
+
+    font-size: larger;
+
+}
+
 nav {
-    background-color: black;
+    background-color: var(--navbarcolor);
     width: 99%;
     height: 10%;
     margin: 0.5%;
@@ -18,7 +53,7 @@ nav {
 }
 
 .main {
-    background-color: white;
+    background-color: var(--containercolor);
     height: 96%;
     width: 99%;
     margin: 0.5%;
@@ -31,20 +66,39 @@ nav {
 section {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--containercolor);
     height: 98%;
     width: 66%;
     margin: 0.5%;
     align-items: end;
-
-
-
 }
+
+#profileimg {
+    width: 75px;
+    height: 75px;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+
+@media screen and (max-width: 1100px) {
+    #profileimg {
+        position: absolute;
+        top: 16%;
+        left: 20%;
+    }
+}
+
+
+
+
 
 aside {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--containercolor);
     height: 98%;
     width: 33%;
     margin: 0.5%;
@@ -53,7 +107,7 @@ aside {
 
 
 #sec1 {
-    background-color: #f5f5f5;
+    background-color: var(--sectioncolor1);
     height: 49.25%;
     width: 80%;
     margin: 0.5%;
@@ -65,18 +119,22 @@ aside {
 }
 
 #sec1A {
-    background-color: #0777cd;
+    background-color: var(--headercolor1);
     width: 100%;
     height: 25%;
 }
 
+
 #sec1B {
-    background-color: #f5f5f5;
+    background-color: var(--sectioncolor1);
     width: 100%;
     height: 75%;
     line-height: 0.75rem;
 }
-#name{margin-top: 5%;}
+
+#name {
+    margin-top: 5%;
+}
 
 #name,
 #location,
@@ -87,7 +145,7 @@ aside {
 }
 
 #sec2 {
-    background-color: white;
+    background-color: var(--containercolor);
     height: 49.25%;
     width: 80%;
     margin: 0.5%;
@@ -107,8 +165,18 @@ aside {
     width: 1.5%;
 }
 
+@media screen and(max-width: 1100px) {
+
+    #gearpic,
+    #mapmarker {
+        height: 10px;
+        width: 10px;
+    }
+
+}
+
 #sec2A {
-    background-color: #a9a9a9;
+    background-color: var(--headercolor2);
     width: 100%;
     height: 15%;
     display: flex;
@@ -120,12 +188,19 @@ aside {
 }
 
 #sec2B {
-    background-color: #f5f5f5;
+    background-color: var(--sectioncolor1);
     width: 100%;
     height: 85%;
     line-height: .75rem;
 }
-#dojo, #dojodates, #B1, #B2, #camp, #campdates, #B3{
+
+#dojo,
+#dojodates,
+#B1,
+#B2,
+#camp,
+#campdates,
+#B3 {
     margin-left: 5rem;
 }
 
@@ -144,7 +219,7 @@ aside {
 #sec3A {
     height: 25%;
     width: 100%;
-    background-color: #a9a9a9;
+    background-color: var(--headercolor2);
     ;
 
 }
@@ -152,7 +227,23 @@ aside {
 #sec3B {
     height: 75%;
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: var(--sectioncolor1);
+    display: flex;
+    flex-direction: column;
+}
+
+#sec3B1 {
+    height: 49%;
+    width: 98%;
+    background-color: red;
+    margin: 1%;
+}
+
+#sec3B2 {
+    height: 49%;
+    width: 98%;
+    background-color: orange;
+    margin: 0 1% 1% 1%;
 }
 
 #sec4 {
@@ -170,19 +261,24 @@ aside {
 #sec4A {
     height: 15%;
     width: 100%;
-    background-color: #a9a9a9;
+    background-color: var(--headercolor2);
 
 }
 
 #sec4B {
     height: 75%;
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: var(--sectioncolor1);
 }
 
 #sec4C {
     height: 10%;
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: var(--sectioncolor1);
     border-top: 3px solid black;
+}
+
+#navbutton {
+    height: 80%;
+    width: 10vw;
 }
