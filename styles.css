@@ -38,7 +38,7 @@ ul {
 li {
     color: white;
     width: 14vw;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 
     font-size: larger;
 
@@ -225,8 +225,19 @@ aside {
     height: 25%;
     width: 100%;
     background-color: var(--headercolor2);
-    ;
-
+    display: flex;
+    align-items: center;
+    
+}
+#sec3A1{
+    height: 50%;
+    width: 15%;
+    background-color: yellow;
+    text-align: center;
+    margin:5%;
+    border-radius: 55%;
+    font-weight: bold;
+    
 }
 
 #sec3B {
@@ -267,9 +278,21 @@ aside {
     height: 15%;
     width: 100%;
     background-color: var(--headercolor2);
+    display: flex;
+    align-items: center;
+  
 
 }
 
+#sec4A1 {
+    height: 35%;
+    width: 15%;
+    background-color: yellow;
+    text-align: center;
+    margin:5%;
+    border-radius: 55%;
+    font-weight: bold;
+}
 #sec4B {
     height: 75%;
     width: 100%;
