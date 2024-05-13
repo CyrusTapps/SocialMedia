@@ -5,6 +5,13 @@
     --headercolor2: #a9a9a9;
     --sectioncolor1: #f5f5f5;
 }
+.profile{
+    width:50%;
+    height:60%;
+   
+}
+
+
 
 #container {
     background-color: var(--containercolor);
@@ -45,7 +52,8 @@ li {
 }
 
 #SignOut {
-    text-align: end;
+    text-align: center;
+    background-color: var(--headercolor1);
 }
 
 nav {
@@ -253,13 +261,45 @@ aside {
     width: 98%;
     background-color: red;
     margin: 1%;
+    display: flex;
+
+}
+#sec3B1A{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
+#sec3B1B{
+    height: 100%;
+    width: 45%;
+    background-color: yellow;
+
+}
+#sec3B1C{
+height: 100%;
+width:15%;
+background-color: aqua;
+
+}
 #sec3B2 {
     height: 49%;
     width: 98%;
     background-color: orange;
     margin: 0 1% 1% 1%;
+}
+#sec3B2A{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #sec4 {
