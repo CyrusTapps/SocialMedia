@@ -5,10 +5,19 @@
     --headercolor2: #a9a9a9;
     --sectioncolor1: #f5f5f5;
 }
-.profile{
-    width:50%;
-    height:60%;
-   
+
+.profile {
+    width: 50%;
+    height: 60%;
+    border-radius: 50%;
+
+}
+
+.accept {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: green;
 }
 
 
@@ -94,6 +103,10 @@ section {
     top: 18%;
     left: 20%;
 }
+
+
+
+
 
 @media screen and (max-width: 1100px) {
     #profileimg {
@@ -235,17 +248,18 @@ aside {
     background-color: var(--headercolor2);
     display: flex;
     align-items: center;
-    
+
 }
-#sec3A1{
+
+#sec3A1 {
     height: 50%;
     width: 15%;
     background-color: yellow;
     text-align: center;
-    margin:5%;
+    margin: 5%;
     border-radius: 55%;
     font-weight: bold;
-    
+
 }
 
 #sec3B {
@@ -264,7 +278,8 @@ aside {
     display: flex;
 
 }
-#sec3B1A{
+
+#sec3B1A {
     height: 100%;
     width: 25%;
     background-color: white;
@@ -274,25 +289,34 @@ aside {
 
 }
 
-#sec3B1B{
+#sec3B1B {
     height: 100%;
     width: 45%;
     background-color: yellow;
+    display:flex;
+align-items: center;
+font-weight: bolder;
+}
+
+#sec3B1C {
+    height: 100%;
+    width: 15%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-#sec3B1C{
-height: 100%;
-width:15%;
-background-color: aqua;
 
-}
 #sec3B2 {
     height: 49%;
     width: 98%;
     background-color: orange;
     margin: 0 1% 1% 1%;
+    display: ;
 }
-#sec3B2A{
+
+#sec3B2A {
     height: 100%;
     width: 25%;
     background-color: white;
@@ -301,6 +325,7 @@ background-color: aqua;
     justify-content: center;
 
 }
+
 
 #sec4 {
     height: 72%;
@@ -320,7 +345,7 @@ background-color: aqua;
     background-color: var(--headercolor2);
     display: flex;
     align-items: center;
-  
+
 
 }
 
@@ -329,10 +354,11 @@ background-color: aqua;
     width: 15%;
     background-color: yellow;
     text-align: center;
-    margin:5%;
+    margin: 5%;
     border-radius: 55%;
     font-weight: bold;
 }
+
 #sec4B {
     height: 75%;
     width: 100%;
